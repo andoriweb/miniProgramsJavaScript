@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>How old is the car</title>
+</head>
+<body>
+  
+  <h1>Насколько старая твоя машина?</h1>
+
+  <label>Год выпуска:</label>
+  <input id="carYear" type="text">
+  
+  <button onclick="check()">Проверить</button>
+
+  <div class="block">
+    <span>Возраст машины: </span><span id="result1">...</span><span id="result3"> лет.</span>
+ 
+    <span class="block">Статус машины: <span id="result2"></span></span>
+  </div>
+
+  <div class="age-block">
+    <p>От 0 до 5-и лет - машина новая</p>
+    <p>От 5-и до 10-и лет - машина нормальная</p>
+    <p>От 10-и лет - машина старая</p>
+  </div>
+
+
+  <script src="scripts.js"></script>
+</body>
+</html>

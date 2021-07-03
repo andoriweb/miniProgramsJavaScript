@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+  font-size: 20px;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+input {
+  padding: 5px 10px;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+button {
+  font-size: 16px;
+  padding: 5px 10px;
+  margin-left: 30px;
+}
+
+.block {
+  display: block;
+  margin-top: 50px;
+}
+
+span.block {
+  margin-top: 30px;
+}
+
+span#result1 {
+  margin-left: 20px;
+}
+
+span#result2 {
+  color: red;
+  margin-left: 20px;
+}
+
+.age-block {
+  margin-top: 70px;
+  font-size: 16px;
+}
