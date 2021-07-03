@@ -1,0 +1,28 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+  font-size: 18px;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+label {
+  display: block;
+}
+input {
+  width: 70px;
+  margin: 0 10px 30px 30px;
+  padding: 5px 10px;
+}
+
+button {
+  padding: 8px 20px;
+  font-size: 16px;
+  margin-bottom: 70px;
+}
