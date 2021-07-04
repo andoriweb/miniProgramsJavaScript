@@ -9,6 +9,7 @@ function check () {
   let result3 = document.getElementById('result3')
   
   result1.innerHTML = carAge
+  
 
   if (carAge < 5) {
       result2.innerHTML = 'Машина новая'
