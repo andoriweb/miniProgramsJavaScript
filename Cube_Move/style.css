@@ -1,0 +1,11 @@
+.border {
+  width: 330px;
+  height: 130px;
+  border: 2px solid black;
+}
+
+.cube {
+  width: 30px;
+  height: 30px;
+  background: #000;
+}
